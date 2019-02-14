@@ -2,7 +2,7 @@ def hello_t(names)
   names.each do |name|
   #  if name.start_with?("T")
   #    puts "Hi, #{name}"
-  puts name
+  puts name.upcase
   #  end
   end
 end
