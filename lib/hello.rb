@@ -1,13 +1,15 @@
 def hello_t(names)
-  names.each do |name|
+  
     if block_given?
-      yield name
+      names.each do |name|
+        yield name 
+      end
     else
-      puts "Hey no block was given!"
+      puts "Hey! No block was given!"
     end
-
+      
 
 #  puts name.upcase
   #  end
-  end
+  
 end
